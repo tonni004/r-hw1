@@ -1,0 +1,32 @@
+.table {
+    border: 1px solid gray;
+    box-shadow: 4px 0px 8px -4px rgba(0,0,0,0.75);
+}
+
+.transitionHeader {
+    text-transform: uppercase;
+    font-size: 13px;
+    background-color:lightskyblue;
+    color: white;
+}
+
+.tableHeader {
+        padding: 20px 70px;
+}
+
+.tableBody {
+    color: gray;
+}
+
+.table__item {
+    padding: 15px 50px;
+    border-right: 1px solid #ebecf0;
+}
+.table__item:nth-child(3n){
+    border-right: none;
+}
+
+.tableBody:nth-child(2n) {
+    background-color: #ebecf0;
+}
+

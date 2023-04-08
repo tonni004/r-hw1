@@ -1,0 +1,41 @@
+.statisticsDiv{
+    margin-top: 20px;
+    border: 1px solid #F5F5F5;
+}
+
+.statisticsCard {
+    display: flex;
+
+    margin: 0 0;
+    padding-left: 0;
+
+    list-style-type: none;
+
+    text-align: center;
+}
+
+.title {
+    margin: 30px 0;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.statisticsCard__item {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px 15px;
+
+    font-size: 10px;
+
+    color: white;
+}
+
+.spanText {
+    margin-top: 5px;
+
+    font-size: 16px;
+}
+
